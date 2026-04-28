@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1080 1920" width="1080" height="1920">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700;900&amp;family=Cormorant Garamond:ital,wght@0,700;1,500;1,700&amp;family=Playfair+Display:ital,wght@1,700&amp;display=swap');
+      .title-zh{font-family:'Noto Serif TC','Source Han Serif TC','PingFang TC',serif;font-weight:900;fill:#2A1F3D;letter-spacing:10px;}
+      .sub-zh{font-family:'Noto Serif TC',serif;font-weight:500;fill:#5A4878;letter-spacing:6px;}
+      .tag-en{font-family:'Cormorant Garamond','Playfair Display',serif;font-weight:700;font-style:italic;fill:#5A4878;letter-spacing:10px;text-anchor:middle;}
+      .tag-en-bot{font-family:'Cormorant Garamond','Playfair Display',serif;font-weight:700;font-style:italic;fill:#5A4878;letter-spacing:9px;text-anchor:middle;}
+      .cta-zh{font-family:'Noto Serif TC',serif;font-weight:700;fill:#E8DDE8;letter-spacing:6px;text-anchor:middle;}
+    </style>
+    <radialGradient id="bgDream" cx="50%" cy="35%" r="80%">
+      <stop offset="0%" stop-color="#F0E6F0"/>
+      <stop offset="55%" stop-color="#E8DDE8"/>
+      <stop offset="100%" stop-color="#D4C4D4"/>
+    </radialGradient>
+    <pattern id="stardust" x="0" y="0" width="180" height="180" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="30" r="0.8" fill="#A6A1B8" opacity="0.5"/>
+      <circle cx="100" cy="80" r="1" fill="#A6A1B8" opacity="0.4"/>
+      <circle cx="150" cy="40" r="0.6" fill="#A6A1B8" opacity="0.5"/>
+      <circle cx="60" cy="150" r="0.7" fill="#A6A1B8" opacity="0.4"/>
+      <circle cx="130" cy="160" r="0.9" fill="#A6A1B8" opacity="0.45"/>
+    </pattern>
+  </defs>
+
+  <rect width="1080" height="1920" fill="url(#bgDream)"/>
+  <rect width="1080" height="1920" fill="url(#stardust)"/>
+
+  <!-- 雙層邊框 -->
+  <path d="M 60,180
+           Q 60,80 160,80
+           L 920,80
+           Q 1020,80 1020,180
+           L 1020,1840
+           Q 1020,1860 1000,1860
+           L 80,1860
+           Q 60,1860 60,1840 Z"
+        fill="none" stroke="#2A1F3D" stroke-width="2.5"/>
+  <path d="M 78,190
+           Q 78,98 170,98
+           L 910,98
+           Q 1002,98 1002,190
+           L 1002,1834
+           Q 1002,1842 994,1842
+           L 86,1842
+           Q 78,1842 78,1834 Z"
+        fill="none" stroke="#A6A1B8" stroke-width="1"/>
+
+  <!-- 頂部 tagline -->
+  <text x="540" y="190" class="tag-en" font-size="24">CRYSTAL · AURA READING</text>
+
+  <!-- 主標銀線 + 圓點 -->
+  <g stroke="#A6A1B8" stroke-width="1.2" fill="#A6A1B8">
+    <line x1="170" y1="265" x2="400" y2="265"/>
+    <circle cx="408" cy="265" r="3.5"/>
+    <line x1="680" y1="265" x2="910" y2="265"/>
+    <circle cx="672" cy="265" r="3.5"/>
+  </g>
+
+  <!-- 主標題 -->
+  <text x="540" y="350" class="title-zh" font-size="86" text-anchor="middle">直覺選一顆寶石</text>
+
+  <!-- 銀色菱形分隔 -->
+  <g transform="translate(540,402)" fill="#A6A1B8" stroke="#A6A1B8">
+    <line x1="-160" y1="0" x2="-22" y2="0" stroke-width="1"/>
+    <polygon points="-14,0 0,-9 14,0 0,9"/>
+    <line x1="22" y1="0" x2="160" y2="0" stroke-width="1"/>
+  </g>
+
+  <!-- 副標題 -->
+  <text x="540" y="465" class="sub-zh" font-size="32" text-anchor="middle">看看你身上帶著哪種磁場</text>
+
+  <!-- ========== 水晶拼貼圖（使用者上傳） ========== -->
+  <image href="crystals_grid.png" xlink:href="crystals_grid.png"
+         x="105" y="560" width="870" height="870"
+         preserveAspectRatio="xMidYMid meet"/>
+
+  <!-- 圖片四角銀色裝飾 -->
+  <g stroke="#A6A1B8" stroke-width="1.4" fill="none">
+    <path d="M 98,560 L 98,588 M 98,560 L 126,560"/>
+    <path d="M 982,560 L 982,588 M 982,560 L 954,560"/>
+    <path d="M 98,1430 L 98,1402 M 98,1430 L 126,1430"/>
+    <path d="M 982,1430 L 982,1402 M 982,1430 L 954,1430"/>
+  </g>
+
+  <!-- 角落星花 -->
+  <g fill="#A6A1B8" opacity="0.7">
+    <path d="M 70,520 L 72,528 L 80,530 L 72,532 L 70,540 L 68,532 L 60,530 L 68,528 Z"/>
+    <path d="M 1010,520 L 1012,528 L 1020,530 L 1012,532 L 1010,540 L 1008,532 L 1000,530 L 1008,528 Z"/>
+    <path d="M 70,1450 L 72,1458 L 80,1460 L 72,1462 L 70,1470 L 68,1462 L 60,1460 L 68,1458 Z"/>
+    <path d="M 1010,1450 L 1012,1458 L 1020,1460 L 1012,1462 L 1010,1470 L 1008,1462 L 1000,1460 L 1008,1458 Z"/>
+  </g>
+
+  <!-- ========== 底部 CTA ========== -->
+  <g transform="translate(540,1620)">
+    <rect x="-330" y="-46" width="660" height="92" rx="46" ry="46" fill="#2A1F3D" stroke="#A6A1B8" stroke-width="1.8"/>
+    <rect x="-320" y="-36" width="640" height="72" rx="36" ry="36" fill="none" stroke="#A6A1B8" stroke-width="0.8" stroke-dasharray="2,3"/>
+    <text class="cta-zh" y="14" font-size="34">你選哪張？留言告訴我 A／B／C／D</text>
+  </g>
+
+  <!-- 底部銀線 + 中央菱形 -->
+  <g transform="translate(540,1710)" stroke="#A6A1B8" fill="#A6A1B8">
+    <line x1="-220" y1="0" x2="-14" y2="0" stroke-width="1"/>
+    <polygon points="-8,0 0,-7 8,0 0,7"/>
+    <line x1="14" y1="0" x2="220" y2="0" stroke-width="1"/>
+  </g>
+
+  <!-- 底部小型 italic 英文 tagline -->
+  <text x="540" y="1780" class="tag-en-bot" font-size="20">CHOOSE YOUR CRYSTAL · FEEL YOUR AURA</text>
+</svg>

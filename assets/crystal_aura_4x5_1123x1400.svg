@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1123 1400" width="1123" height="1400">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;700;900&amp;family=Cormorant+Garamond:ital,wght@0,700;1,500;1,700&amp;family=Playfair+Display:ital,wght@1,700&amp;display=swap');
+      .title-zh{font-family:'Noto Serif TC','Source Han Serif TC','PingFang TC',serif;font-weight:900;fill:#2A1F3D;letter-spacing:10px;}
+      .sub-zh{font-family:'Noto Serif TC',serif;font-weight:500;fill:#5A4878;letter-spacing:6px;}
+      .tag-en{font-family:'Cormorant Garamond','Playfair Display',serif;font-weight:700;font-style:italic;fill:#5A4878;letter-spacing:10px;text-anchor:middle;}
+      .cta-zh{font-family:'Noto Serif TC',serif;font-weight:700;fill:#E8DDE8;letter-spacing:6px;text-anchor:middle;}
+    </style>
+    <radialGradient id="bgDream" cx="50%" cy="40%" r="80%">
+      <stop offset="0%" stop-color="#F0E6F0"/>
+      <stop offset="55%" stop-color="#E8DDE8"/>
+      <stop offset="100%" stop-color="#D4C4D4"/>
+    </radialGradient>
+    <!-- 星塵裝飾 -->
+    <pattern id="stardust" x="0" y="0" width="180" height="180" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="30" r="0.8" fill="#A6A1B8" opacity="0.5"/>
+      <circle cx="100" cy="80" r="1" fill="#A6A1B8" opacity="0.4"/>
+      <circle cx="150" cy="40" r="0.6" fill="#A6A1B8" opacity="0.5"/>
+      <circle cx="60" cy="150" r="0.7" fill="#A6A1B8" opacity="0.4"/>
+      <circle cx="130" cy="160" r="0.9" fill="#A6A1B8" opacity="0.45"/>
+    </pattern>
+  </defs>
+
+  <!-- 背景 + 星塵 -->
+  <rect width="1123" height="1400" fill="url(#bgDream)"/>
+  <rect width="1123" height="1400" fill="url(#stardust)"/>
+
+  <!-- 雙層邊框 -->
+  <path d="M 60,160
+           Q 60,60 160,60
+           L 963,60
+           Q 1063,60 1063,160
+           L 1063,1320
+           Q 1063,1340 1043,1340
+           L 80,1340
+           Q 60,1340 60,1320 Z"
+        fill="none" stroke="#2A1F3D" stroke-width="2.5"/>
+  <path d="M 78,170
+           Q 78,78 170,78
+           L 953,78
+           Q 1045,78 1045,170
+           L 1045,1314
+           Q 1045,1322 1037,1322
+           L 86,1322
+           Q 78,1322 78,1314 Z"
+        fill="none" stroke="#A6A1B8" stroke-width="1"/>
+
+  <!-- 頂部 tagline -->
+  <text x="561.5" y="158" class="tag-en" font-size="22">CRYSTAL · AURA READING</text>
+
+  <!-- 主標銀線 + 圓點 -->
+  <g stroke="#A6A1B8" stroke-width="1.2" fill="#A6A1B8">
+    <line x1="180" y1="222" x2="430" y2="222"/>
+    <circle cx="438" cy="222" r="3.5"/>
+    <line x1="685" y1="222" x2="935" y2="222"/>
+    <circle cx="677" cy="222" r="3.5"/>
+  </g>
+
+  <!-- 主標題 -->
+  <text x="561.5" y="298" class="title-zh" font-size="80" text-anchor="middle">直覺選一顆寶石</text>
+
+  <!-- 銀色菱形分隔 -->
+  <g transform="translate(561.5,348)" fill="#A6A1B8" stroke="#A6A1B8">
+    <line x1="-160" y1="0" x2="-22" y2="0" stroke-width="1"/>
+    <polygon points="-14,0 0,-9 14,0 0,9"/>
+    <line x1="22" y1="0" x2="160" y2="0" stroke-width="1"/>
+  </g>
+
+  <!-- 副標題 -->
+  <text x="561.5" y="402" class="sub-zh" font-size="30" text-anchor="middle">看看你身上帶著哪種磁場</text>
+
+  <!-- ========== 水晶拼貼圖（使用者上傳） ========== -->
+  <image href="crystals_grid.png" xlink:href="crystals_grid.png"
+         x="181.5" y="460" width="760" height="760"
+         preserveAspectRatio="xMidYMid meet"/>
+
+  <!-- 圖片四角銀色裝飾 -->
+  <g stroke="#A6A1B8" stroke-width="1.4" fill="none">
+    <path d="M 175,460 L 175,485 M 175,460 L 200,460"/>
+    <path d="M 948,460 L 948,485 M 948,460 L 923,460"/>
+    <path d="M 175,1220 L 175,1195 M 175,1220 L 200,1220"/>
+    <path d="M 948,1220 L 948,1195 M 948,1220 L 923,1220"/>
+  </g>
+
+  <!-- 角落星花 -->
+  <g fill="#A6A1B8" opacity="0.7">
+    <path d="M 130,420 L 132,428 L 140,430 L 132,432 L 130,440 L 128,432 L 120,430 L 128,428 Z"/>
+    <path d="M 993,420 L 995,428 L 1003,430 L 995,432 L 993,440 L 991,432 L 983,430 L 991,428 Z"/>
+    <path d="M 130,1240 L 132,1248 L 140,1250 L 132,1252 L 130,1260 L 128,1252 L 120,1250 L 128,1248 Z"/>
+    <path d="M 993,1240 L 995,1248 L 1003,1250 L 995,1252 L 993,1260 L 991,1252 L 983,1250 L 991,1248 Z"/>
+  </g>
+
+  <!-- ========== 底部 CTA ========== -->
+  <g transform="translate(561.5,1245)">
+    <rect x="-330" y="-42" width="660" height="84" rx="42" ry="42" fill="#2A1F3D" stroke="#A6A1B8" stroke-width="1.8"/>
+    <rect x="-320" y="-32" width="640" height="64" rx="32" ry="32" fill="none" stroke="#A6A1B8" stroke-width="0.8" stroke-dasharray="2,3"/>
+    <text class="cta-zh" y="14" font-size="32">你選哪張？留言告訴我 A／B／C／D</text>
+  </g>
+
+  <!-- 底部銀線 + 中央菱形 -->
+  <g transform="translate(561.5,1310)" stroke="#A6A1B8" fill="#A6A1B8">
+    <line x1="-220" y1="0" x2="-14" y2="0" stroke-width="1"/>
+    <polygon points="-8,0 0,-7 8,0 0,7"/>
+    <line x1="14" y1="0" x2="220" y2="0" stroke-width="1"/>
+  </g>
+</svg>
